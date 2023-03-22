@@ -1,14 +1,34 @@
-* {
-    margin: 0;
-    padding: 0;
-    /* background-color: #E5CCFF; */
+@font-face {
+    font-family: Shin Go;
+    src: url(../Fonts/ShinGoFont.otf);
 }
 
-.navbar {
-    margin: 0;
+* {
+    background-color: #ecddfc;
+    font-family: Shin Go;
+}
+
+.greet {
+    color: blue;
+    display: grid;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 20%;
     padding: 0;
-    height: 10%;
-    width: 100%;
-    position: absolute;
-    display: inline;
+    overflow: hidden;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(170, 42, 187);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: #333;
 }
