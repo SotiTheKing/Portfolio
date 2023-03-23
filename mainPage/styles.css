@@ -8,13 +8,34 @@
     font-family: Shin Go;
 }
 
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    background: center fixed;
+    background-image: url(../images/mainBG.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} 
+
 .greet {
-    color: blue;
-    display: grid;
-    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    padding: 20px;
+    text-align: center;
 }
 
 .navbar ul{
+    margin-top: 50px;
     list-style-type: none;
     margin: 20%;
     padding: 0;
