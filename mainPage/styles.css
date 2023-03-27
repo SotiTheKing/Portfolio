@@ -4,7 +4,7 @@
 }
 
 * {
-    background-color: #ecddfc;
+    background-color: #d0cbd6;
     font-family: Shin Go;
 }
 
@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-} 
+}
 
 .greet {
     padding: 20px;
@@ -37,7 +37,7 @@ body {
 .navbar ul{
     margin-top: 50px;
     list-style-type: none;
-    margin: 20%;
+    margin: 15%;
     padding: 0;
     overflow: hidden;
 }
