@@ -10,18 +10,29 @@
 
 body {
     margin: 0;
+    background-image: url(../images/secondaryBG.gif);
+    background-size: cover;
+    height: 100vh;
 }
 
 .container {
     position: relative;
     background: center fixed;
-    background-image: url(../images/secondaryBG.gif);
-    background-size: cover;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;    /* if left; it moves the dropdown too */
-    height: 100vh;
+    height: 60%;
+    width: 50%;
+    padding-left: 25%;
+}
+
+.dropdown {
+    margin-left: 0;
+    position: relative;
+    display: inline-block;
+    align-items: left;
 }
 
 /* Dropdown Button */
@@ -29,17 +40,11 @@ body {
     background-color: #04AA6D;
     color: white;
     padding: 12px;
-    align-items: left !important;
+    align-items: left;
     font-size: 19px;
     border: none;
     left: 0;
     margin-left: 0;
-}
-
-/* le div */
-.dropdown {
-    position: relative;
-    display: inline-block;
 }
   
 /* Dropdown Content (Hidden by Default) */
@@ -61,13 +66,19 @@ body {
 }
   
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
   
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
   
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 
 .greet {
     padding: 20px;
