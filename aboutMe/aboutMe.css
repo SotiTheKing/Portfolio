@@ -86,7 +86,17 @@ body {
 }
 
 .info {
-    padding: 20px;
-    text-align: center;
-    list-style: none;
+    font-size: 25px;
+    text-align: left;
+    /* padding: 5%;
+    position: fixed; */
 }
+
+#i-am {
+    font-size: 20px;
+    text-align: left;
+}
+
+.typewrite > .wrap {
+    border-right: 0.08em solid #fff
+};
