@@ -22,7 +22,7 @@ body {
     overflow: hidden;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    /* if left; it moves the dropdown too */
+    align-items: center;
     height: 60%;
     width: 50%;
     padding-left: 25%;
@@ -83,4 +83,10 @@ body {
 .greet {
     padding: 20px;
     text-align: center;
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+    list-style: none;
 }
