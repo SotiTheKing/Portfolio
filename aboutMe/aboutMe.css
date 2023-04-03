@@ -4,7 +4,7 @@
 }
 
 * {
-    background-color: #d0cbd6;
+    background-color: transparent;
     font-family: Shin Go;
 }
 
@@ -86,10 +86,12 @@ body {
 }
 
 .info {
-    font-size: 25px;
-    text-align: left;
-    /* padding: 5%;
-    position: fixed; */
+    font-size: 20px;
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 0%;
+    position: absolute;
+    top: 70%;
 }
 
 #i-am {
@@ -98,5 +100,5 @@ body {
 }
 
 .typewrite > .wrap {
-    border-right: 0.08em solid #fff
+    border-right: #fff
 };
