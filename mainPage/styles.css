@@ -63,10 +63,6 @@ body {
     color: #3e8e41;
 }
 
-.typewrite > .wrap {
-    border-right: #fff
-};
-
 .info {
     font-size: 18px;
     text-align: left;
