@@ -1,8 +1,7 @@
 import TypeIt from "typeit";
 
-new TypeIt(".greet", {
-    strings: "Welcome to my portfolio!",
-    speed: 75,
+new TypeIt('.greet', {
+    speed: 50,
   })
-  .type("hi?")
+  .type('This is a test.')
   .go();
