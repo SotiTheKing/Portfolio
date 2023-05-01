@@ -30,12 +30,16 @@ body {
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     font-size: 18px;
+    width: 35%;
 }
 
 .greet {
+    font-size: 30px;
     padding: 20px;
     text-align: center;
     color: #fff;
+    margin-top: 130px;
+    height: 90px;
 }
 
 .navbar {
@@ -67,4 +71,8 @@ body {
     font-size: 18px;
     text-align: left;
     position: relative;
+}
+
+#rickroll:active, #rickroll:visited {
+    color: #fff;
 }

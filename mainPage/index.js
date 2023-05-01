@@ -1,7 +1,10 @@
-import TypeIt from "typeit";
+// import TypeIt from '../node_modules/typeit/dist/typeit.min.js';
+const TypeIt = require('typeit');
+
+// https://www.typeitjs.com/docs/vanilla/
 
 new TypeIt('.greet', {
     speed: 50,
   })
-  .type('This is a test.')
+  .type('Hello!')
   .go();
