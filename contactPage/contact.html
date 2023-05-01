@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/contactPage/contact.css">
+    <link rel="icon" type="image/ico" href="../images/saturnFav.ico">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="../mainPage/index.html">Main Page</a>
+            <a href="../aboutMe/aboutMe.html">About Me</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="greet">
+            <h1>Contact Me!</h1>
+        </div>
+        <div class="contact_form">
+            <form name="contact_form" method="POST" netlify>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" minlength="2" maxlength="40" size="23" autofocus required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" size="23" pattern="^[\w\-\.]+@([\w\-]+\.)+[\w\-]{2,4}$" title="Your email" autocomplete="email" required><br><br>
+                <input type="submit" value="Submit!">
+            </form>
+        </div>
+    </div>
+    <script src="forms.js"></script>
+</body>
+</html>
