@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainPage/styles.css">
+    <link rel="icon" type="image/ico" href="images/saturnFav.ico">
+    <title>Main Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <div>
+                <h1 class="greet"><span class="greet"></span></h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Main Page</a></li>
+                    <li><a href="../aboutMe/aboutMe.html">About Me</a></li>
+                    <li><a href="../contactPage/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new TypeIt('.greet', {
+                strings: ["Welcome to my porftolio"],
+                cursor: true,
+                cursorChar: "|",
+                cursorSpeed: 999999999,
+                speed: 70,
+              })
+                .pause(3000)
+                .move(-4, {delay: 270})
+                .delete(2)
+                .type('tf')
+                .move(4)
+                .pause(240000)  // 240000 = 4min
+                .delete()
+                .type("Click <a id='rickroll' href='https://youtu.be/dQw4w9WgXcQ' target='_blank'>me</a> for a surprise!")
+                .pause(240000)  // 240000 = 4min
+                .delete()
+                .type("What are you looking for here? Just use one of the buttons below to go to a different page.")
+              .go();
+        });
+      </script>
+</body>
+</html>

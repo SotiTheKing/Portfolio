@@ -4,19 +4,19 @@
 }
 
 * {
-    background-color: #d0cbd6;
+    background-color: transparent;
     font-family: Shin Go;
 }
 
 body {
     margin: 0;
+    background-image: url(../images/mainBG.gif);
+    background-size: cover;
 }
 
 .container {
     position: relative;
     background: center fixed;
-    background-image: url(../images/mainBG.gif);
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,9 +24,22 @@ body {
     height: 100vh;
 }
 
+.text {
+    border-radius: 12px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    font-size: 18px;
+    width: 35%;
+}
+
 .greet {
+    font-size: 30px;
     padding: 20px;
     text-align: center;
+    color: #fff;
+    margin-top: 130px;
+    height: 90px;
 }
 
 .navbar {
@@ -44,12 +57,22 @@ body {
 
 .navbar li a {
     display: block;
-    color: rgb(170, 42, 187);
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar li a:hover {
-    color: #333;
+    color: #3e8e41;
+}
+
+.info {
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+}
+
+#rickroll:active, #rickroll:visited {
+    color: #fff;
 }
