@@ -6,81 +6,81 @@
     width: 80%;
     }
     .greet {
-    font-size: 24px;
+    font-size: 2rem;
     margin-top: 50px;
     height: 70px;
+    text-align: center;
     }
     .navbar ul {
     margin: 5%;
     }
 }
     
-    @font-face {
-        font-family: Shin Go;
-        src: url(../Fonts/ShinGoFont.otf);
-    }
+@font-face {
+    font-family: Shin Go;
+    src: url(../Fonts/ShinGoFont.otf);
+}
 
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: transparent;
     font-family: Shin Go;
-    }
+}
 
-    html, body {
+html, body {
     height: 100%;
     font-size: 14px;
-    }
-    
-    body {
+}
+
+body {
     color: #ffffff;
     background-image: url(../images/mainBG.gif);
     background-size: cover;
-    }
-    
-    .container {
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     height: 100%;
-    }
-    
-    .text {
-    border-radius: 12px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
+}
+
+.text {
     font-size: 1rem;
     padding: 20px;
     margin-bottom: 20px;
     width: 60%;
     max-width: 400px;
-    }
-    
-    .greet {
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+.greet {
     font-size: 2rem;
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    }
-    
-    .navbar {
+    margin-bottom: 40px;
+}
+
+.navbar {
     text-align: center;
-    }
-    
-    .navbar ul {
+}
+
+.navbar ul {
     list-style-type: none;
     margin-top: 20px;
     margin-bottom: 20px;
-    }
-    
-    .navbar li {
+}
+
+.navbar li {
     margin-bottom: 10px;
-    }
-    
-    .navbar li a {
+}
+
+.navbar li a {
     display: block;
     color: #ffffff;
     text-align: center;
@@ -88,19 +88,13 @@
     text-decoration: none;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.2);
-    }
-    
-    .navbar li a:hover {
+}
+
+.navbar li a:hover {
     background-color: rgba(255, 255, 255, 0.4);
-    }
-    
-    .info {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    text-align: left;
-    }
-    
-    #rickroll:active, #rickroll:visited {
+}
+
+#rickroll:active, #rickroll:visited {
     color: #ffffff;
     text-decoration: underline;
-    }
+}
