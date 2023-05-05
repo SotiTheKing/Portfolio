@@ -105,25 +105,25 @@ body {
 
 /* Media Queries for Mobile */
 @media (max-width: 768px) {
-  .container {
-    height: auto;
-    width: 90%; /* reduce the width for smaller screens */
-    margin-left: 5%; /* adjust the margin for smaller screens */
-  }
+    .container {
+        height: auto;
+        width: 90%; /* reduce the width for smaller screens */
+        margin-left: 5%; /* adjust the margin for smaller screens */
+    }
   
-  .dropdown {
-    margin-bottom: 20px; /* add some spacing between elements */
-  }
+    .dropdown {
+        margin-bottom: 20px; /* add some spacing between elements */
+    }
   
-  .dropdown-content {
-    min-width: 120px; /* reduce the width for smaller screens */
-  }
+    .dropdown-content {
+        min-width: 120px; /* reduce the width for smaller screens */
+    }
   
-  .greet {
-    font-size: 15px; /* reduce the font size for smaller screens */
-  }
+    .greet {
+        font-size: 15px; /* reduce the font size for smaller screens */
+    }
   
-  .info {
-    font-size: 15px; /* reduce the font size for smaller screens */
-  }
+    .info {
+        font-size: 15px; /* reduce the font size for smaller screens */
+    }
 }
