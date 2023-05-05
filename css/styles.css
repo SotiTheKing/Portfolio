@@ -4,75 +4,99 @@
 }
 
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: transparent;
+    text-align: center;
     font-family: Shin Go;
 }
 
+html, body {
+    height: 100%;
+    font-size: 14px;
+}
+
 body {
-    margin: 0;
+    color: #ffffff;
     background-image: url(../images/mainBG.gif);
     background-size: cover;
 }
 
 .container {
-    position: relative;
-    background: center fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 20px;
+    height: 100%;
 }
 
 .text {
+    font-size: 1rem;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    max-width: 400px;
     border-radius: 12px;
-    background-color: #ffffff10;
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    font-size: 18px;
-    width: 35%;
 }
 
 .greet {
-    font-size: 30px;
-    padding: 20px;
+    font-size: 2rem;
     text-align: center;
-    color: #fff;
-    margin-top: 130px;
-    height: 90px;
+    margin-bottom: 40px;
 }
 
 .navbar {
-    padding: 20px;
     text-align: center;
 }
 
-.navbar ul{
-    margin-top: 50px;
+.navbar ul {
     list-style-type: none;
-    margin: 15%;
-    padding: 0;
-    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar li {
+    margin-bottom: 10px;
 }
 
 .navbar li a {
     display: block;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .navbar li a:hover {
-    color: #3e8e41;
-}
-
-.info {
-    font-size: 18px;
-    text-align: left;
-    position: relative;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 #rickroll:active, #rickroll:visited {
-    color: #fff;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Media Queries for Mobile */
+@media screen and (max-width: 600px) {
+    .container {
+    height: 100%;
+    }
+    .text {
+    width: 80%;
+    }
+    .greet {
+    font-size: 2rem;
+    margin-top: 50px;
+    height: 70px;
+    text-align: center;
+    }
+    .navbar ul {
+    margin: 5%;
+    }
 }
