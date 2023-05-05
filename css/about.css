@@ -25,8 +25,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 55%;
-    width: 40%;
-    margin-left: 30%;
+    width: 80%; /* reduce the width for mobile */
+    margin-left: 10%; /* adjust the margin for mobile */
     color: #fff;
     border-radius: 18px;
     background-color: #ffffff10;
@@ -101,4 +101,29 @@ body {
     font-size: 17px;
     text-align: left;
     position: relative;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    width: 90%; /* reduce the width for smaller screens */
+    margin-left: 5%; /* adjust the margin for smaller screens */
+  }
+  
+  .dropdown {
+    margin-bottom: 20px; /* add some spacing between elements */
+  }
+  
+  .dropdown-content {
+    min-width: 120px; /* reduce the width for smaller screens */
+  }
+  
+  .greet {
+    font-size: 15px; /* reduce the font size for smaller screens */
+  }
+  
+  .info {
+    font-size: 15px; /* reduce the font size for smaller screens */
+  }
 }
