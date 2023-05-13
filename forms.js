@@ -9,7 +9,7 @@ const handleSubmit = (event) => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => alert("Thank you for your message!"))
+      .then(() => alert("Thank you for your message!") && location.reload())
       .catch((error) => alert('Something went wrong while trying to submit your message!') && console.log(error));
   };
   
