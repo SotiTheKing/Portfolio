@@ -38,23 +38,23 @@ search.addEventListener('click', () => {
 
             switch (json.weather[0].main) {
                 case 'Clear':
-                    image.src = 'weatherImages/sun.png';
+                    image.src = 'Images/weatherImages/sun.png';
                     break;
 
                 case 'Rain':
-                    image.src = 'weatherImages/rain.png';
+                    image.src = 'Images/weatherImages/rain.png';
                     break;
 
                 case 'Snow':
-                    image.src = 'weatherImages/snow.png';
+                    image.src = 'Images/weatherImages/snow.png';
                     break;
 
                 case 'Clouds':
-                    image.src = 'weatherImages/cloud.png';
+                    image.src = 'Images/weatherImages/cloud.png';
                     break;
 
                 case 'Haze':
-                    image.src = 'weatherImages/mist.png';
+                    image.src = 'Images/weatherImages/mist.png';
                     break;
 
                 default:
@@ -72,8 +72,5 @@ search.addEventListener('click', () => {
             weatherDetails.classList.add('fadeIn');
             container.style.height = '590px';
 
-
         });
-
-
 });
